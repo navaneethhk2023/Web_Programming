@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body bgcolor="#FFFDD0">  
+    
+    <div align="center"><img src="VIT logo.png" width="40" height="40"> <font face="Raleway" color="light blue" size="8"><b>VIT Block Review</font></b></div>
+    <p><font size="4" face="Raleway">We are conducting a survey to find out scope students' opinion on academic blocks and hostels and suggest improvements to uplift the experience in our institution.</font></p>
+    <form action="#">
+        <table width ="700" height="600" border="1px" >
+            <tr>
+                <td><label for="urname">Name:</label></td>
+                <td><input type="text" id="urname" name="urname" required></td>
+            </tr>
+            <tr>
+                <td><label for="regno">Reg No:-</label>:</label></td>
+                <td><input type="text" id="regno" name="regno" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Student Mail ID:-</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="Male">Male
+	            <input type="radio" id="gender" name="gender" value="Female">Female
+		    <input type="radio" id="gender" name="gender" value="Others">Other
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="syear">Enter your Academic Year:-</label>
+		        </td>
+		        <td>
+                    <input type="syears" id="syearr" name="syear">
+		            <datalist id="genders">
+                        <option value="Male">                    
+                        <option value="Female">  
+                        <option value="Other">  
+                        </datalist>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="fav_block">Enter your Favourite Block</label>
+		        </td>
+		        <td>
+                    <input list="fav_blocks" id="fav_block" name="fav_block" required>
+                        <datalist id="fav_blocks">
+                            <option value="PRP">                    
+                            <option value="SJT">  
+                            <option value="Library">              
+                        </datalist>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="reason">Reason for liking the block</label>
+		        </td>
+		        <td>
+                    <textarea id="reason" name="reason" rows="4" colums="20" required></textarea>
+
+		            
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="hated_block">Enter a Block you do not like</label>
+		        </td>
+		        <td>
+                    <input list="hated_blocks" id="hated_block" name="hated_block" required>
+                        <datalist id="hated_blocks">
+                            <option value="PRP">                    
+                            <option value="SJT">  
+                            <option value="Library">              
+                        </datalist>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="hreason">Reason for not liking the block</label>
+		        </td>
+		        <td>
+                    <textarea id="hreason" name="hreason" rows="4" colums="20"></textarea>
+
+		            
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="hblock">Enter your Accomodation</label>
+		        </td>
+		        <td>
+                    <input list="hblocks" id="hblock" name="hblock" required>
+                        <datalist id="hblocks">
+                            <option value="Males Hostel">                    
+                            <option value="Ladies Hostel">  
+                            <option value="Day Scholar">              
+                        </datalist>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="opinion">Opinion on your accomodation:-</label>
+		        </td>
+		        <td>
+                    <textarea id="opinion" name="opinion" rows="4" colums="20"></textarea>
+
+		            
+                </td>
+            </tr>
+            <tr>
+                <td>
+		            <label for="suggest">Suggestions:-</label>
+		        </td>
+		        <td>
+                    <textarea id="suggest" name="suggest" rows="4" colums="20"></textarea>
+
+		            
+                </td>
+            </tr>
+	        <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="consent" name="consent">
+                    <label for="consent">I agree to the Terms & Conditions</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
